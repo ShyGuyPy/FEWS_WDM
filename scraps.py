@@ -54,3 +54,22 @@ dataevap = wdmtoolbox.extract(file, 1000)
 #test_csv = wdmtoolbox.csvtowdm(file, 1004, dataatmp )
 #test_csv =dataatmp.to_csv(output_folder/"test_csv.TMP")
 #print(test_csv)
+
+
+
+list(data_df.columns)
+check = data_df.iloc[0, 0]
+print(check)
+
+# data_df['year'] = pandas.Series(numpy.random.randn(len(data_df['Datetime'])), index=data_df.index)
+# data_df['day'] = pandas.Series(numpy.random.randn(len(data_df['datetime'])), index=data_df.index)
+# data_df['month'] = pandas.Series(numpy.random.randn(len(data_df['datetime'])), index=data_df.index)
+# data_df['hour'] = pandas.Series(numpy.random.randn(len(data_df['datetime'])), index=data_df.index)
+# format the data
+# print(data_df)
+
+# count = 0
+# for index in data_df['year']:
+#     count +=1
+#
+# print("count ="+ count)

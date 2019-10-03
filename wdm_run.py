@@ -27,15 +27,15 @@ if platform == "darwin" or platform == "linux" or platform == "linux2":
 elif platform == "win32":
 
     #this is the directory where the raw wdm files are placed
-    source_dir_met = r"C:\Users\icprbadmin\Documents\Python_Scripts\Workflow_py\input\met"
-    source_dir_prad = r"C:\Users\icprbadmin\Documents\Python_Scripts\Workflow_py\input\prad"
+    source_dir_met = r"C:\Users\icprbadmin\Documents\Python_Scripts\FEWS_WDM\input\met"
+    source_dir_prad = r"C:\Users\icprbadmin\Documents\Python_Scripts\FEWS_WDM\input\prad"
 
     #create object containing all files in for met and prad
     allFiles1 = glob.glob(source_dir_met + "/*met*.wdm*")
     allFiles2 = glob.glob(source_dir_prad+ "/*prad*.wdm*")
 
     #our file destination
-    output_folder = r"C:\Users\icprbadmin\Documents\Python_Scripts\Workflow_py\output"
+    output_folder = r"C:\Users\icprbadmin\Documents\Python_Scripts\FEWS_WDM\output"
     #print("win32 os")
 #---------------------------------------------------#
 
